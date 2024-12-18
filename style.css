@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --gray:#333;
+}
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    align-items: center;
+    
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100%;
+}
+
+.container-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header .logo,
+.container-header .logo .logo-image{
+    position: relative;
+    max-width: 85px;
+}
+
+.container-header .menu-header{
+    display: flex;
+    position: relative;
+}
+
+.menu-header li{
+    list-style: none;
+}
+
+.menu-header li a{
+    color: var(--gray);
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 12rem;
+    text-decoration: none;
+}
+
+.main{
+    width: 100%;
+    height: 37rem;
+    border: 1px solid blue;
+    display: flex;
+}
+
+.content{
+    margin: 5rem;
+    border: 1px solid green;
+}
+
+.content .text{
+    position: relative;
+    max-width: 30rem;
+
+}
+
+.content .text h2{
+    font-size: 4rem;
+    line-height: 1.4em;
+    font-weight: 500;
+    color: var(--gray);
+    padding-left: 1rem;
+}
+
+.content .text span{
+    color: #017143;
+    font-weight: bold;
+}
+.content .text p{
+    font-size: 21px;
+    padding-left: 2rem;
+    color: var(--gray);
+}
+.content .text a{
+    font-size: 21px;
+    padding-left: 2rem;
+    color: var(--gray);
+    text-decoration: none;
+}
